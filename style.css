@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(188, 108, 188, 0.813);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  background-color: beige;
+  border-radius: 50%;
+  position: relative;
+}
+
+.eye {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(183, 194, 183);
+  display: inline block;
+  margin: 60px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Ball {
+  width: 15px;
+  height: 15px;
+  background: black;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  bottom: 15%;
+  transform: translate(-50% -50%);
+  border: 15 teal;
+  border-radius: 50%;
+}
+.eyek {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(183, 194, 183);
+  display: inline block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: -110px;
+  right: -130px;
+  bottom: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.Ballk {
+  width: 15px;
+  height: 15px;
+  background: rgb(11, 10, 10);
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  left: 170px;
+  bottom: 15%;
+  transform: translate(-50% -50%);
+  border: 15 rgb(9, 9, 9);
+  border-radius: 50%;
+}
+.nose {
+  position: absolute;
+  border: 10px solid rgb(153, 162, 153);
+  width: 40px;
+  height: 30px;
+  border-radius: 0 0 100% 100%;
+  border-top: none;
+  margin-top: -25%;
+  top: 75%;
+  right: 43%;
+  bottom: 10px;
+}
+
+.smile {
+  position: absolute;
+  width: 110px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 7px 7px 15px 15px;
+}
+
+.bottom-smile {
+  top: 200px;
+  left: 100px;
+  z-index: 0;
+}
+
+.top-smile {
+  top: 190px;
+  left: 100px;
+  background-color: beige;
+  z-index: 10;
+}
+
+.popion {
+  width: 100px;
+  height: 30px;
+  border: 1px solid brown;
+  display: flex;
+  justify-content: center;
+}
+
+.popion div {
+  width: 70px;
+  height: 30px;
+  background-color: brown;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
